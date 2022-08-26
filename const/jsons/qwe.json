@@ -1,0 +1,946 @@
+{
+    "actionType": "APPLY",
+    "activeTab": {
+        "force": false,
+        "tabMnemonic": "inquiryTabDataCommon"
+    },
+    "alternativeDocumentViewClass": null,
+    "attrValues": {
+        "answerSigningDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата ответа"
+            },
+            "value": null
+        },
+        "apartmentId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Квартиры"
+            },
+            "value": null
+        },
+        "attachmentSheet": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Количество листов вложения"
+            },
+            "value": ""
+        },
+        "caseLink": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Выбранное дело"
+            },
+            "value": null
+        },
+        "caseName": {
+            "attr": {
+                "attributeType": {
+                    "longString": true
+                },
+                "name": "Наименование дела"
+            },
+            "value": ""
+        },
+        "caseNumber": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "№ Дела"
+            },
+            "value": ""
+        },
+        "changeStatusOfInquiryDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата смены статуса"
+            },
+            "value": null
+        },
+        "closingExecutionCard": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Закрывающая карточка исполнения"
+            },
+            "value": null
+        },
+        "collective": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Коллективное"
+            },
+            "value": false
+        },
+        "creationDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата дела"
+            },
+            "value": null
+        },
+        "declarantIDESIA": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "ID заявителя из ЕСИА"
+            },
+            "value": ""
+        },
+        "districtId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Района"
+            },
+            "value": null
+        },
+        "erpDeclarant": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Заявитель ЕРП "
+            },
+            "value": ""
+        },
+        "executor": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Исполнитель"
+            },
+            "value": ""
+        },
+        "externalSystemAddress": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Адрес из внешней системы"
+            },
+            "value": ""
+        },
+        "externalSystemAddressId": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "ID адреса из внешней системы"
+            },
+            "value": ""
+        },
+        "fastTrack": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Фаст-трек"
+            },
+            "value": false
+        },
+        "federalSubjectId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Субъекта РФ"
+            },
+            "value": 1121548
+        },
+        "houseId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Дома"
+            },
+            "value": null
+        },
+        "iOrigin": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Источник данных"
+            },
+            "value": {
+                "entityClass": "su.opencode.docflow.documents.domain.misc.OriginEntity",
+                "id": "7E9619AF-00EB-4027-8D31-58874735B5D7",
+                "infoPanel": "Docflow.info.OriginInfoPanel",
+                "name": "Документ системы",
+                "viewOrder": 0
+            }
+        },
+        "identityVerified": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Личность подтверждена"
+            },
+            "value": false
+        },
+        "inquiryAddressee": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Адресат"
+            },
+            "value": {
+                "entityClass": "su.opencode.docflow.documents.domain.doc.DocumentEntity",
+                "extraName": "Заявитель",
+                "id": "31DEE17A-DE15-40CF-8F01-5EBF3F025282",
+                "name": "Заявитель",
+                "version": 16,
+                "viewOrder": 0
+            }
+        },
+        "inquiryAddresseeDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата запроса"
+            },
+            "value": null
+        },
+        "inquiryAddresseeOutNum": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Исходящий номер"
+            },
+            "value": ""
+        },
+        "inquiryAddresseeOutNumPres": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Исходящий номер Адм. Президента"
+            },
+            "value": ""
+        },
+        "inquiryAddresseeSigner": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Фамилия подписавшего"
+            },
+            "value": null
+        },
+        "inquiryAnotation": {
+            "attr": {
+                "attributeType": {
+                    "longString": true
+                },
+                "name": "Примечание"
+            },
+            "value": ""
+        },
+        "inquiryAnswer": {
+            "attr": {
+                "attributeType": {
+                    "longString": true
+                },
+                "name": "Текст ответа"
+            },
+            "value": ""
+        },
+        "inquiryAppealType": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Вид обращения"
+            },
+            "value": "Заявление"
+        },
+        "inquiryAssistants": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Сопровождающие лица"
+            },
+            "value": ""
+        },
+        "inquiryAttachedTo": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Подвед. организация"
+            },
+            "value": null
+        },
+        "inquiryBirthDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата рождения"
+            },
+            "value": null
+        },
+        "inquiryBuildingHouse": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Корпус"
+            },
+            "value": ""
+        },
+        "inquiryCollectiveAppeal": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Коллективное обращение"
+            },
+            "value": false
+        },
+        "inquiryCreateDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата поступления"
+            },
+            "value": 1657742400000
+        },
+        "inquiryDateFinish": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Срок исполнения"
+            },
+            "value": 1660248000000
+        },
+        "inquiryDistrict": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Областной район/Внутригородской округ"
+            },
+            "value": null
+        },
+        "inquiryDurationInDays": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Длительность (в днях)"
+            },
+            "value": "30"
+        },
+        "inquiryEmail": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Адрес электронной почты"
+            },
+            "value": ""
+        },
+        "inquiryExecutionDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Фактическая дата выполнения"
+            },
+            "value": null
+        },
+        "inquiryFederalSubject": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Субъект РФ"
+            },
+            "value": "обл. Самарская"
+        },
+        "inquiryFilesList": {
+            "attr": {
+                "attributeType": {
+                    "list": true
+                },
+                "name": "Файлы (список)"
+            },
+            "value": []
+        },
+        "inquiryFirstname": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Имя"
+            },
+            "value": ""
+        },
+        "inquiryHouseNumber": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Дом"
+            },
+            "value": null
+        },
+        "inquiryID": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID"
+            },
+            "value": null
+        },
+        "inquiryIsCorruption": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Коррупция"
+            },
+            "value": false
+        },
+        "inquiryIsSpecialControl": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "На особый контроль (2К)"
+            },
+            "value": false
+        },
+        "inquiryLastname": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Фамилия"
+            },
+            "value": ""
+        },
+        "inquiryLocality": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Город/Населенный пункт"
+            },
+            "value": null
+        },
+        "inquiryNonresident": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Иногородние"
+            },
+            "value": false
+        },
+        "inquiryOrganization": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Юр.лицо"
+            },
+            "value": ""
+        },
+        "inquiryPhoneNumber": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Телефон"
+            },
+            "value": ""
+        },
+        "inquiryPostcode": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Индекс"
+            },
+            "value": ""
+        },
+        "inquiryPreTrialAppeal": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Досудебное обжалование предоставления госуслуги"
+            },
+            "value": "Нет"
+        },
+        "inquiryQuestionList": {
+            "attr": {
+                "attributeType": {
+                    "list": true
+                },
+                "name": "Содержание"
+            },
+            "value": []
+        },
+        "inquiryRealSignatory": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Подписант"
+            },
+            "value": null
+        },
+        "inquiryReasonForPetition": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Меры соц.поддержки"
+            },
+            "value": null
+        },
+        "inquiryReasonForReAppeal": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Причина повторного обращения"
+            },
+            "value": null
+        },
+        "inquiryRegDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата регистрации"
+            },
+            "value": 1657742400000
+        },
+        "inquiryRegNumber": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Рег. номер"
+            },
+            "value": ""
+        },
+        "inquiryRepetition": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Повторность"
+            },
+            "value": null
+        },
+        "inquiryResult": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Результат рассмотрения"
+            },
+            "value": null
+        },
+        "inquiryResultDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дан ответ"
+            },
+            "value": null
+        },
+        "inquiryRiddle": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Рассмотрение по ФЗ"
+            },
+            "value": "ФЗ-59"
+        },
+        "inquiryRoomNumber": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Квартира"
+            },
+            "value": null
+        },
+        "inquirySNILS": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "СНИЛС"
+            },
+            "value": ""
+        },
+        "inquirySecondname": {
+            "attr": {
+                "attributeType": {
+                    "shortString": true
+                },
+                "name": "Отчество"
+            },
+            "value": ""
+        },
+        "inquirySettlement": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Поселение/Внутригородской район"
+            },
+            "value": null
+        },
+        "inquirySocialCategories": {
+            "attr": {
+                "attributeType": {
+                    "list": true
+                },
+                "name": "Социальные категории"
+            },
+            "value": []
+        },
+        "inquirySourceFileList": {
+            "attr": {
+                "attributeType": {
+                    "list": true
+                },
+                "name": "Файлы обращения (список)"
+            },
+            "value": []
+        },
+        "inquirySourceOfDocument": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Источник поступления"
+            },
+            "value": "Письменно"
+        },
+        "inquiryStatus": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Статус"
+            },
+            "value": {
+                "entityClass": "su.opencode.docflow.documents.domain.StatusEntity",
+                "extraName": "Отложенные при регистрации",
+                "id": "07BFCE5B-EE9F-42C3-BEFE-2F7A75B7CDAD",
+                "infoPanel": "Docflow.info.StatusInfoPanel",
+                "mnemonic": "inquiryPostponed",
+                "name": "Отложенные при регистрации",
+                "viewOrder": 0
+            }
+        },
+        "inquiryStead": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Участок"
+            },
+            "value": null
+        },
+        "inquiryStreet": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Улица"
+            },
+            "value": null
+        },
+        "inquiryTerritory": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Элемент план. структуры"
+            },
+            "value": null
+        },
+        "inquiryTerritoryRef": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Территория"
+            },
+            "value": null
+        },
+        "inquiryText": {
+            "attr": {
+                "attributeType": {
+                    "longString": true
+                },
+                "name": "Комментарий"
+            },
+            "value": ""
+        },
+        "inquiryType": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Тип обращения"
+            },
+            "value": "Письменное"
+        },
+        "isEmailSendingMethod": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Электронная почта"
+            },
+            "value": false
+        },
+        "isPersonalSendingMethod": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Выдача на руки"
+            },
+            "value": false
+        },
+        "isPostSendingMethod": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Почтовое отправление"
+            },
+            "value": false
+        },
+        "isShortVerbalRoute": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Это короткий устный ответ"
+            },
+            "value": false
+        },
+        "localityId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Населенного пункта"
+            },
+            "value": null
+        },
+        "mainInquiryQuestionsResolutionAuthor": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Автор резолюции главного вопроса"
+            },
+            "value": null
+        },
+        "parentInquiry": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Родительское обращение"
+            },
+            "value": null
+        },
+        "regCardSearchGroupDeclarantLink": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Заявитель"
+            },
+            "value": null
+        },
+        "registrar": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Регистратор"
+            },
+            "value": null
+        },
+        "requestPlace": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Запрос на места"
+            },
+            "value": null
+        },
+        "rootDepartment": {
+            "attr": {
+                "attributeType": {
+                    "reference": true
+                },
+                "name": "Корневой департамент"
+            },
+            "value": {
+                "entityClass": "su.opencode.docflow.auth.domain.Department",
+                "extraName": "ГКУ СО «Главное управление социальной защиты населения Северо-Восточного округа» ",
+                "id": "CAEB5CBF-0D66-42C3-B29C-74F0A5892AC5",
+                "name": "ГКУ СО «Главное управление социальной защиты населения Северо-Восточного округа» ",
+                "viewOrder": 0
+            }
+        },
+        "sendOnControlDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата перевода На контроль"
+            },
+            "value": null
+        },
+        "settlementId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Поселения"
+            },
+            "value": null
+        },
+        "showArchivedPreviousInquiries": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Показать архивные"
+            },
+            "value": false
+        },
+        "sstuIsUploaded": {
+            "attr": {
+                "attributeType": {
+                    "bool": true
+                },
+                "name": "Выгружено в ССТУ"
+            },
+            "value": false
+        },
+        "sstuStatus": {
+            "attr": {
+                "attributeType": {
+                    "dictionary": true,
+                    "shortString": true
+                },
+                "name": "Статус ССТУ"
+            },
+            "value": null
+        },
+        "sstuUploadedDate": {
+            "attr": {
+                "attributeType": {
+                    "date": true
+                },
+                "name": "Дата и время выгрузки в ССТУ"
+            },
+            "value": null
+        },
+        "steadId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Участка"
+            },
+            "value": null
+        },
+        "streetId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Улицы"
+            },
+            "value": null
+        },
+        "territoryId": {
+            "attr": {
+                "attributeType": {
+                    "numeric": true
+                },
+                "name": "ID Элемента планировочной структуры"
+            },
+            "value": null
+        }
+    },
+    "deleted": false,
+    "entityClass": "su.opencode.docflow.documents.domain.doc.DocumentEntity",
+    "fullId": "6291AC70-93B6-4921-A1F8-21B25212D9DBDocumentEntity",
+    "hasRestrictions": true,
+    "project": false,
+    "read": false
+}

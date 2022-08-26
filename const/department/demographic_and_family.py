@@ -1,0 +1,5 @@
+REGISTRAR_DEMOGRAPHIC = ('ttn', 'alsu', 'gagarina', 'fot', 'pisarenko.o', 'bratanova')
+AUTHOR_RESOLUTION_DEMOGRAPHIC = ('voreg')
+EXECUTOR_DEMOGRAPHIC = ('drozdova', 'bogd')
+SIGNATORY_DEMOGRAPHIC = ('rubezhanskiy')
+CONTROLLER_DEMOGRAPHIC = ('ttn')

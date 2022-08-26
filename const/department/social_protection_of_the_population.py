@@ -1,0 +1,6 @@
+REGISTRAR_PROTECTION = ['kolest', 'girfanova', 'aleks.i', 'kolosova', 'mokshina', 'taranea']
+AUTHOR_RESOLUTION_PROTECTION = ['ray']
+EXECUTOR_PROTECTION = ['androl']
+SIGNATORY_PROTECTION = ['ray']
+CONTROLLER_PROTECTION = ['kolest']
+ADMIN = ['2']
